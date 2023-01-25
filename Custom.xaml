@@ -1,0 +1,89 @@
+﻿<local:MyCard Title="服务器">
+    <StackPanel Margin="25,40,23,15" HorizontalAlignment="Center">
+            <TextBlock TextWrapping="Wrap"
+            Text="使用服务器特定功能的模组"/>
+            <TextBlock Text="    "/>
+            <local:MyButton Width="175" Height="35" Text="模组下载" ColorType="Highlight" EventType="打开网页" EventData="https://wwuw.lanzouf.com/iTPvg0jq5u6h"/>
+            <TextBlock Text="    "/>
+            <TextBlock TextWrapping="Wrap"
+            Text="服务器统一通行证"/>
+            <TextBlock Text="    "/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Width="80" Height="35" Text="登录" ColorType="Highlight" EventType="打开网页" EventData="https://login.mc-user.com:233/38eaccb07d1911eda71f00163e095b49/loginreg"/>
+            <TextBlock Text="    "/>
+            <local:MyButton Width="80" Height="35" Text="注册" ColorType="Highlight" EventType="打开网页" EventData="https://login.mc-user.com:233/38eaccb07d1911eda71f00163e095b49/register"/>
+            </StackPanel>
+            <local:MyButton Margin="0,8,0,0" Width="175" Height="35" Text="直接进入服务器" ColorType="Highlight" EventType="启动游戏" EventData="TBS Three Body Server|1.117.145.100" ToolTip="进入TBS Three Body server" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="TBS Three Body Server" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <Image Width="50" Height="50" Margin="0,0,0,4" HorizontalAlignment="Left" Source="https://i0.hdslb.com/bfs/article/4e96150a79732239e2a8ac869067062a18b78cb3.png@942w_942h_progressive.webp"/>
+        <TextBlock TextWrapping="Wrap"
+                    Text="我的世界三体服务器，本服务器使用统一通行证登录、白名单和登录模组，URL：38eaccb07d1911eda71f00163e095b49。服务器规则详细请看Logic服务器规章制度。本服务器类型为生电，请玩家自觉遵守生电的规则。" />
+        <TextBlock TextWrapping="Wrap"
+                    Text="具体教程请看服务器官方网站,不过这是服务器客户端，所有资源已准备好了。"/>
+        <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="服务器官方网站" EventType="打开网页" EventData="http://1.117.145.100" />
+        <TextBlock TextWrapping="Wrap"
+                   Text="本服务器就是以三体为主题的，如果你想创作出符合主题的建筑，腐竹建议先看完原著，以此更了解今后将要干什么。" />
+        <TextBlock Text="   "/>
+            <TextBlock TextWrapping="Wrap" FontSize="15"
+            Text="一些需要知道的信息："/>
+            <TextBlock TextWrapping="Wrap"
+            Text="服主：Elaina233"/>
+            <TextBlock TextWrapping="Wrap"
+            Text="管理员："/>
+            <TextBlock TextWrapping="Wrap"
+            Text="   服管"/>
+            <TextBlock TextWrapping="Wrap"
+            Text="      Elaina233"/>
+            <TextBlock TextWrapping="Wrap"
+            Text="      SML_TxuxT"/>
+            <TextBlock TextWrapping="Wrap"
+            Text="      Sm_mu"/>
+            <TextBlock TextWrapping="Wrap"
+            Text="   群管"/>
+            <TextBlock TextWrapping="Wrap"
+            Text="      Elaina233"/>
+            <TextBlock TextWrapping="Wrap"
+            Text="      SXZzsot"/>
+            <TextBlock TextWrapping="Wrap"
+            Text="      Bad_HuanXing"/>
+            <TextBlock TextWrapping="Wrap"
+            Text="   "/>
+            <TextBlock TextWrapping="Wrap"
+            Text="服务器是统一通行证登录，登录ID是：38eaccb07d1911eda71f00163e095b49"/>
+            <local:MyButton Margin="0,0,10,0" Width="80" Height="20" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            Text="复制" EventType="复制文本" EventData="38eaccb07d1911eda71f00163e095b49"/>
+    </StackPanel>
+</local:MyCard> 
+    
+<local:MyCard Title="领导者Bilibili主页" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyButton Width="190" Height="35" Text="Elaina233(服主)" ColorType="Highlight" EventType="打开网页" EventData="https://space.bilibili.com/1140685131?spm_id_from=333.1007.0.0"/>
+        <TextBlock TextWrapping="Wrap" Text="   "/>
+        <local:MyButton Width="190" Height="35" Text="sm_mu(管理员)" ColorType="Highlight" EventType="打开网页" EventData="https://space.bilibili.com/700285947/?spm_id_from=333.999.0.0"/>
+        <TextBlock TextWrapping="Wrap" Text="   "/>
+        <local:MyButton Width="190" Height="35" Text="SML_TxuxT(管理员)" ColorType="Highlight" EventType="打开网页" EventData="https://space.bilibili.com/660124086/?spm_id_from=333.999.0.0"/>
+        <TextBlock TextWrapping="Wrap" Text="   "/>
+        <local:MyButton Width="190" Height="35" Text="SXZzsot(TO服服主)" ColorType="Highlight" EventType="打开网页" EventData="https://space.bilibili.com/361849895/?spm_id_from=333.999.0.0"/>
+        <TextBlock TextWrapping="Wrap" Text="   "/>
+        <local:MyButton Width="190" Height="35" Text="Macro_HuanXing(TO服副服主)" ColorType="Highlight" EventType="打开网页" EventData="https://space.bilibili.com/85763900/?spm_id_from=333.999.0.0"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="关于三体" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyButton Width="180" Height="35" Text="我的三体" ColorType="Highlight" EventType="打开网页" EventData="https://www.bilibili.com/bangumi/play/ss1704?spm_id_from=333.337.0.0"/>
+        <TextBlock TextWrapping="Wrap" Text="   "/>
+        <local:MyButton Width="180" Height="35" Text="我的三体 罗辑传" ColorType="Highlight" EventType="打开网页" EventData="https://www.bilibili.com/bangumi/play/ss4657?spm_id_from=333.337.0.0"/>
+        <TextBlock TextWrapping="Wrap" Text="   "/>
+        <local:MyButton Width="180" Height="35" Text="我的三体 章北海传" ColorType="Highlight" EventType="打开网页" EventData="https://www.bilibili.com/bangumi/play/ss28770?spm_id_from=333.337.0.0"/>
+        <TextBlock TextWrapping="Wrap" Text="   "/>
+        <local:MyButton Width="180" Height="35" Text="三体" ColorType="Highlight" EventType="打开网页" EventData="https://www.bilibili.com/bangumi/play/ss26257?spm_id_from=333.337.0.0"/>
+        <TextBlock TextWrapping="Wrap" Text="   "/>
+        <Image Margin="0,0,0,4" Source="https://i0.hdslb.com/bfs/article/10d12275907a79280fa2799837517933b1e6da3a.jpg@942w_629h_progressive.webp"/>
+    </StackPanel>
+</local:MyCard>
